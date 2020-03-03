@@ -1,0 +1,20 @@
+version: '3'
+services:
+  postgres:
+    build:
+      context: ./postgres
+  server:
+    build:
+      context: ./server
+    depends_on:
+      - postgres
+    environment:
+      POSTGRES_CONNECTION: postgres://sms:sms@postgres/sms
+  client:
+    build:
+      context: ./client
+    depends_on:
+      - server
+    ports:
+      - 80:80
+
