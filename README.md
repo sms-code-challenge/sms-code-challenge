@@ -10,6 +10,8 @@ Build and start with
 
     docker-compose up --build
 
-You should now be able to access the frontend at [http://localhost](http://localhost).
+You should now be able to access the frontend at [http://localhost](http://localhost):
 
-:information_source: If port 80 is already in use on your machine you can configure another port in `docker-compose.yml`.
+![Screenshot](screenshot.png)
+
+:information_source: if port 80 is already in use on your machine you can change it in `docker-compose.yml`.
