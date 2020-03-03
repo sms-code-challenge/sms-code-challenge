@@ -14,4 +14,4 @@ You should now be able to access the frontend at [http://localhost](http://local
 
 ![Screenshot](screenshot.png)
 
-:information_source: if port 80 is already in use on your machine you can change it in `docker-compose.yml`.
+:information_source: if port 80 is already in use on your machine you can change it in [`docker-compose.yml`](docker-compose.yml).
